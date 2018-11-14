@@ -92,7 +92,7 @@
 </packages>
 <symbols>
 <symbol name="DUALCANBUS">
-<description>Hvorfor kommer du ikke opp i den forbanna skjermen?</description>
+<description>Fusion Dual CAN-bus adapter</description>
 <wire x1="17.78" y1="17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
@@ -110,11 +110,14 @@
 <pin name="C1_LH" x="7.62" y="-22.86" length="middle" rot="R90"/>
 <pin name="C1_LL" x="12.7" y="-22.86" length="middle" rot="R90"/>
 <wire x1="-17.78" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<text x="-16.002" y="-2.286" size="1.778" layer="94">Fusion Dual CAN-Bus adapter</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="TEENSYDUALCANBUS">
-<description>Et forsøk på å lage dette adapteret som jeg ikke fant på google etter 5 minutters googling</description>
+<description>Fusion Dual-can adapter for teensy 3.6
+
+Note: can not be used for PCB design, as the pads are not placed according to physical layout</description>
 <gates>
 <gate name="G$1" symbol="DUALCANBUS" x="0" y="0"/>
 </gates>
