@@ -1,12 +1,9 @@
-to connect repo:
+TIL KRISTIAN:
 
-init repo on local machine.
-git remote add MAS234P https://github.com/krishk16/MAS234Project.git
-git fetch MAS234P master
+I hver DELmappe ligger det en mappe som heter prosjektfiler, disse er mest for vår egen del
+de inneholder blandt annet bilder brukt i rapport og litt forskjellige datablad.
 
+Koden finner du da i de mappene som IKKE heter prosjektfiler.
 
-to commit changes:
-
-git add <filename>
-git commit
-git push MAS234P master
+Mvh, 
+Jørgen, Kristoffer og Marius
